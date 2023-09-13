@@ -1,0 +1,40 @@
+.ratingCard{
+  display: flex;
+  justify-content: flex-end;
+
+  .ratingInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: .8rem;
+
+    .ratingLabel{
+      font-weight: bold;
+      color: #333;
+    }
+
+    .ratingCount{
+      font-weight: .7rem;
+      color: orange;
+    }
+  }
+
+  .ratingChip{
+    display: flex;
+    align-items: center;
+    span{
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: crimson;
+      color: #fff;
+      font-size: .9rem;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 10px;
+    }
+  }
+}

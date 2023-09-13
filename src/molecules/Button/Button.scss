@@ -1,0 +1,37 @@
+/* CSS */
+button {
+  border-radius: .5rem;
+  box-sizing: border-box;
+  font-family: 'Nunito Sans';
+  color: #FFFFFF;
+  font-size: 13px;
+  justify-content: center;
+  padding: .5rem .75rem;
+  text-decoration: none;
+  border: 0;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  display: inline-flex;
+  align-items: center;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+}
+
+
+.primaryButton{
+  background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+}
+.secondaryButton{
+  background-image: linear-gradient(-180deg, #e28437 0%, #c8571e 100%);
+}
+
+@media (min-width: 768px) {
+  button {
+    padding: .5rem .75rem;
+  }
+}
